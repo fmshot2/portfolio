@@ -10,6 +10,28 @@
     justify-content: center;
 }
 
+#banner-section .banner-content .main-content .item.one {
+    box-shadow: 2.7px 0px 3px 0px rgb(233 165 165 / 80%);
+}
+ 
+
+#banner-section .banner-content .main-content .item.two {
+    box-shadow: 2.7px 4.879px 3px 0px rgb(233 165 165 / 80%);
+}
+
+#banner-section .banner-content .main-content .item.three {
+    box-shadow: 2.7px 0px 3px 0px rgb(233 165 165 / 80%);
+}
+
+#banner-section .banner-content .main-content .item.four {
+    box-shadow: 2.7px 4.879px 3px 0px rgb(233 165 165 / 80%);
+}
+
+.my-download 
+{
+    box-shadow: 2.7px 4.879px 3px 0px rgb(233 165 165 / 80%);
+}
+
 .title {
     font-size: 40px;
 }
