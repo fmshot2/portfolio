@@ -13,7 +13,7 @@
 #banner-section .banner-content .main-content .item.one {
     box-shadow: 2.7px 0px 3px 0px rgb(233 165 165 / 80%);
 }
- 
+
 
 #banner-section .banner-content .main-content .item.two {
     box-shadow: 2.7px 4.879px 3px 0px rgb(233 165 165 / 80%);
@@ -27,8 +27,7 @@
     box-shadow: 2.7px 4.879px 3px 0px rgb(233 165 165 / 80%);
 }
 
-.my-download 
-{
+.my-download {
     box-shadow: 2.7px 4.879px 3px 0px rgb(233 165 165 / 80%);
 }
 
@@ -81,13 +80,21 @@
     margin-left: 140px;
 }
 
-h1, h1>a {
+h1,
+h1>a {
     font-size: 30px;
     line-height: 46px;
 }
 
- /* blog page */
- #single-blog .single-step h1.title {
+/* blog */
+
+.follow-me {
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+/* blog page */
+#single-blog .single-step h1.title {
     font-size: 36px;
     color: rgb(59, 54, 140);
     font-weight: bold;
