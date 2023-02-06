@@ -18,6 +18,12 @@
     <link rel="stylesheet" href="../../../css/animate.css">
     <link rel="stylesheet" href="../../../css/style.css">
     <link rel="stylesheet" href="../../../css/femi.css">
+    <style>
+        #single-blog h3 {
+            color: #3b368c;
+            margin: 10px 0 20px 0;
+        }
+    </style>
 </head>
 
 <body>
@@ -140,10 +146,14 @@
                                     class="social-area d-flex align-items-center justify-content-center justify-content-lg-end">
                                     <h3>Follow Us</h3>
                                     <div class="social d-flex">
-                                        <a href="https://www.twitter.com/@_fmshot/" class="single-icon"><img src="../../../images/pngtree-twitter-social-media-round-icon-png-image_6315985.png" alt="social"></a>
-                                        <a href="https://www.github.com/fmshot2/" class="single-icon"><img src="../../../images/github-removebg-preview.png" alt="social"></a>
-                                        <a href="https://www.linkedin.com/in/femi-shotola/" class="single-icon"><img src="../../../images/174857-removebg-preview.png" alt="social"></a>
-                                
+                                        <a href="https://www.twitter.com/@_fmshot/" class="single-icon"><img
+                                                src="../../../images/pngtree-twitter-social-media-round-icon-png-image_6315985.png"
+                                                alt="social"></a>
+                                        <a href="https://www.github.com/fmshot2/" class="single-icon"><img
+                                                src="../../../images/github-removebg-preview.png" alt="social"></a>
+                                        <a href="https://www.linkedin.com/in/femi-shotola/" class="single-icon"><img
+                                                src="../../../images/174857-removebg-preview.png" alt="social"></a>
+
                                         <!-- <a href="#"><i class="fab fa-facebook-f"></i></a>
                                         <a href="#"><i class="fab fa-twitter"></i></a>
                                         <a href="#" class="active"><i class="fab fa-instagram"></i></a>
@@ -173,14 +183,15 @@
                             </div>
 
                             <h3 class="pt-5 mb-3">What is JavaScript?</h3>
-                            <p>In the mid-90s, after the advent of thw World Wide Web, a program was needed to 
-                                make web pages come "alive". </p>
-                                 <p>This task was taken up by Brendan Eich, who developed it for Netscape 2</p>
-                            <p>This language uses programs known as <em>scripts</em> which can be written in an
-                                HTML fileand run automatically as the page loads.</p>
-                            <p>Scripts are created and executed as plain text, hence they do not require any special compilation to run.</p>
-                            <p>This makes JavaScript very different from a similarly named language called <a
-                                    href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a>.</p>
+
+                            <p>In the mid-90s, after the advent of thw World Wide Web, a program was needed to
+                                make web pages come "alive". This task was taken up by Brendan Eich, who developed it
+                                for Netscape 2.
+                                This language uses programs known as <em>scripts</em> which can be written in an
+                                HTML file and run automatically as the page loads.
+                                Scripts are created and executed as plain text, hence they do not require any special
+                                compilation to run.</p>
+                            <p>He named it <span class="text-bold"> JAVASCRIPT </span></p>
                             <div class="important important_smart">
                                 <!-- <div>Why is it called JavaScript?</div>
                                 <div class="important__content">
@@ -193,14 +204,16 @@
                                         has no relation to Java at all.</p>
                                 </div> -->
                             </div>
-                            <h3 class="m-3">Where can JavaScript Be Used?</h3>
-                            <p>JavaScript can be run in the browser, in servers, or on any device that has a "JavaScript engine".
+                            <h3 class="pt-2 mb-3">Where can JavaScript Be Used?</h3>
+                            <p>JavaScript can be run in the browser, in servers, or on any device that has a "JavaScript
+                                engine".
                             </p>
                             <!-- <p>The browser has an embedded engine sometimes called a “JavaScript virtual machine”.</p> -->
-                            <p>Different engines have different “codenames”. e.g V8 in Chrome and SpiderMonkey in Firefox</p>
-                            
+                            <p>Different engines have different “codenames”. e.g V8 in Chrome and SpiderMonkey in
+                                Firefox</p>
 
-                            <h3 class="m-3">What can in-browser JavaScript do?</h3>
+
+                            <h3 class="pt-2 mb-3">What can in-browser JavaScript do?</h3>
                             <p>Modern JavaScript is a “safe” programming language. It does not provide low-level access
                                 to memory or the CPU, because it was initially created for browsers which do not require
                                 it.</p>
@@ -209,7 +222,7 @@
                                 that allow JavaScript to read/write arbitrary files, perform network requests, etc.</p>
                             <p>In-browser JavaScript can do everything related to webpage manipulation, interaction with
                                 the user, and the webserver.</p>
-                            <p>For instance, in-browser JavaScript is able to:</p>
+                            <p class="p-1"><em>For instance, in-browser JavaScript is able to:</em> </p>
                             <ul>
                                 <li>1. Add new HTML to the page, change the existing content, modify styles.</li>
                                 <li>2. React to user actions, run on mouse clicks, pointer movements, key presses.</li>
@@ -220,7 +233,7 @@
                                 <li>Get and set cookies, ask questions to the visitor, show messages.</li>
                                 <li>Remember the data on the client-side (“local storage”).</li>
                             </ul>
-                            <h3 class="m-3">What CAN’T in-browser JavaScript do?</h3>
+                            <h3 class="pt-5 mb-3">What CAN’T in-browser JavaScript do?</h3>
                             <p>JavaScript’s abilities in the browser are limited to protect the user’s safety. The aim
                                 is to prevent an evil webpage from accessing private information or harming the user’s
                                 data.</p>
@@ -249,7 +262,8 @@
                                     <p>This limitation is, again, for the user’s safety. A page from
                                         <code>http://anysite.com</code> which a user has opened must not be able to
                                         access another browser tab with the URL <code>http://gmail.com</code>, for
-                                        example, and steal information from there.</p>
+                                        example, and steal information from there.
+                                    </p>
                                 </li>
                                 <li>
                                     <p>JavaScript can easily communicate over the net to the server where the current
@@ -261,15 +275,15 @@
                             <p>Such limitations do not exist if JavaScript is used outside of the browser, for example
                                 on a server. Modern browsers also allow plugins/extensions which may ask for extended
                                 permissions.</p>
-                            <h3 class="m-3">What makes JavaScript unique?</h3>
+                            <h3 class="pt-5 mb-3">What makes JavaScript unique?</h3>
                             <p>There are at least <em>three</em> great things about JavaScript:</p>
                             <div class="balance balance_single">
                                 <div class="balance__pluses">
                                     <div class="balance__content">
                                         <ul class="balance__list">
-                                            <li>1.  Full integration with HTML/CSS.</li>
-                                            <li>2.  Simple things are done simply.</li>
-                                            <li>3.  Supported by all major browsers and enabled by default.</li>
+                                            <li>1. Full integration with HTML/CSS.</li>
+                                            <li>2. Simple things are done simply.</li>
+                                            <li>3. Supported by all major browsers and enabled by default.</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -278,12 +292,14 @@
                             <p>That’s what makes JavaScript unique. That’s why it’s the most widespread tool for
                                 creating browser interfaces.</p>
                             <p>That said, JavaScript can be used to create servers, mobile applications, etc.</p>
-                           
+
                             <h3>Summary</h3>
                             <ul>
-                                <li>1. JavaScript was initially created as a browser-only language, but it is now used in
+                                <li>1. JavaScript was initially created as a browser-only language, but it is now used
+                                    in
                                     many other environments as well.</li>
-                                <li>2. Today, JavaScript has a unique position as the most widely-adopted browser language,
+                                <li>2. Today, JavaScript has a unique position as the most widely-adopted browser
+                                    language,
                                     fully integrated with HTML/CSS.</li>
                                 <li>3. There are many languages that get “transpiled” to JavaScript and provide certain
                                     features. It is recommended to take a look at them, at least briefly, after
@@ -292,7 +308,8 @@
                         </div>
                         <div class="about-me d-flex align-items-center">
                             <div class="img-area">
-                                <img src="../../../images/bexit2022-end-of-the-year-party-modified8-modified-removebg-preview.png" style="width:200px;" alt="image">
+                                <img src="../../../images/bexit2022-end-of-the-year-party-modified8-modified-removebg-preview.png"
+                                    style="width:200px;" alt="image">
                             </div>
                             <div class="section-header">
                                 <h5 class="sub-title">About Me</h5>
@@ -302,11 +319,15 @@
                                 <div class="social-area d-flex align-items-center">
                                     <h4>Follow Me on</h4>
                                     <div class="social d-flex">
-                                                     
-                                        <a href="https://www.twitter.com/@_fmshot/" class="single-icon"><img src="../../../images/pngtree-twitter-social-media-round-icon-png-image_6315985.png" alt="social"></a>
-                                        <a href="https://www.github.com/fmshot2/" class="single-icon"><img src="../../../images/github-removebg-preview.png" alt="social"></a>
-                                        <a href="https://www.linkedin.com/in/femi-shotola/" class="single-icon"><img src="../../../images/174857-removebg-preview.png" alt="social"></a>
-                                
+
+                                        <a href="https://www.twitter.com/@_fmshot/" class="single-icon"><img
+                                                src="../../../images/pngtree-twitter-social-media-round-icon-png-image_6315985.png"
+                                                alt="social"></a>
+                                        <a href="https://www.github.com/fmshot2/" class="single-icon"><img
+                                                src="../../../images/github-removebg-preview.png" alt="social"></a>
+                                        <a href="https://www.linkedin.com/in/femi-shotola/" class="single-icon"><img
+                                                src="../../../images/174857-removebg-preview.png" alt="social"></a>
+
                                     </div>
                                 </div>
                             </div>
