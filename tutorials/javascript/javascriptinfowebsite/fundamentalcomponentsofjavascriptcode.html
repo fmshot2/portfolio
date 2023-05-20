@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<!-- Mirrored from pixner.net/readora/blog-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Jan 2023 15:15:27 GMT -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Femi Shotola - Blog - Javascript Fundamentals</title>
+
+    <link rel="shortcut icon" href="../../../images/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../css/fontawesome.min.css">
+    <link rel="stylesheet" href="../../../css/slick.css">
+    <link rel="stylesheet" href="../../../css/nice-select.css">
+    <link rel="stylesheet" href="../../../css/animate.css">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../css/femi.css">
+    <style>
+        #single-blog h3 {
+            color: #3b368c;
+            margin: 10px 0 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- start preloader -->
+    <div class="preloader" id="preloader"></div>
+    <!-- end preloader -->
+
+    <a href="#" class="scrollToTop"><i class="fas fa-angle-double-up"></i></a>
+
+    <!-- header-section start -->
+    <header id="header-section">
+        <div class="overlay">
+            <div class="container">
+                <div class="row d-flex header-area">
+                    <div class="logo-section flex-grow-1 d-flex align-items-center">
+                        <a class="site-logo site-title" href="index.html"><img src="images/logo.png"
+                                alt="site-logo"></a>
+                    </div>
+                    <button class="navbar-toggler ml-auto collapsed" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <nav class="navbar navbar-expand-lg p-0">
+                        <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav main-menu ml-auto">
+                                <li><a href="../../../index.html" class="active">Home</a></li>
+                                <li><a href="../../../index.html#banner-section">About</a></li>
+                                <li><a href="../../../index.html#specilizing-section">Portfolio</a></li>
+                                <li><a href="../../../contact.html">Contact Me</a></li>
+
+                                <!-- <li><a href="products.html">Products</a></li> -->
+                                <li class="menu_has_children"><a href="#blog-content">Blog</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="blog-single.html">Javascript Tutorials</a></li>
+                                    </ul>
+                                </li>
+                                <!-- <li class="cart-area">
+                                    <button class="cart-toggle cart">
+                                        Cart<span>2</span>
+                                    </button>
+                                    <div class="cart-menu">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="cart-items">
+                                                    <div class="dropdown-items d-flex">
+                                                        <div class="image-area">
+                                                            <img src="images/cart-image1.png" alt="image">
+                                                        </div>
+                                                        <div class="text-area">
+                                                            <h5>Minimalistic Phone Mockup</h5>
+                                                            <p class="qnt">Quantity: <span>1</span></p>
+                                                            <p class="price">$<span>10.00</span></p>
+                                                        </div>
+                                                        <button type="button"><img src="images/close-icon.png"
+                                                                alt="image"></button>
+                                                    </div>
+                                                </div>
+                                                <div class="cart-items">
+                                                    <div class="dropdown-items d-flex">
+                                                        <div class="image-area">
+                                                            <img src="images/cart-image2.png" alt="image">
+                                                        </div>
+                                                        <div class="text-area">
+                                                            <h5>Minimalistic Phone Mockup</h5>
+                                                            <p class="qnt">Quantity: <span>1</span></p>
+                                                            <p class="price">$<span>10.00</span></p>
+                                                        </div>
+                                                        <button type="button"><img src="images/close-icon.png"
+                                                                alt="image"></button>
+                                                    </div>
+                                                </div>
+                                                <div class="total-order d-flex justify-content-between">
+                                                    <p>Order total:</p>
+                                                    <p class="dollar">$<span>20.00</span></p>
+                                                </div>
+                                                <div class="d-flex justify-content-center">
+                                                    <a href="#" class="view">VIEW CART & CHECKOUT</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="right-area header-action d-flex align-items-center">
+                        <a href="contact.html" class="cmn-btn">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-section end -->
+
+    <!-- inner banner start -->
+    <section id="banner-section" class="inner-banner blog-single">
+        <div class="banner-content d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="text-area">
+                            <h1 class="title">Fundamental Components of Javascript Code</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="head-bottom">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="date-area">
+                                <!-- <img src="images/date-icon.png" alt="image">
+                                <span class="date">May 15, 2021</span>
+                                <span class="d-title">In Design</span> -->
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="text-area">
+                                <div
+                                    class="social-area d-flex align-items-center justify-content-center justify-content-lg-end">
+                                    <h3>Follow Us</h3>
+                                    <div class="social d-flex">
+                                        <a href="https://www.twitter.com/@_fmshot/" class="single-icon"><img
+                                                src="../../../images/pngtree-twitter-social-media-round-icon-png-image_6315985.png"
+                                                alt="social"></a>
+                                        <a href="https://www.github.com/fmshot2/" class="single-icon"><img
+                                                src="../../../images/github-removebg-preview.png" alt="social"></a>
+                                        <a href="https://www.linkedin.com/in/femi-shotola/" class="single-icon"><img
+                                                src="../../../images/174857-removebg-preview.png" alt="social"></a>
+
+                                        <!-- <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#" class="active"><i class="fab fa-instagram"></i></a>
+                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner-section end -->
+
+    <!-- banner bottom blog start -->
+    <section id="single-blog" class="blog-single">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 wow fadeInUp">
+                    <div class="top-img">
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-10">
+                            <div class="single-step">
+                            </div>
+
+                            <h3 class="pt-5 mb-3">Let's take a look at the fundamental components of javascript code.
+
+                            </h3>
+
+                            <p>Statements are syntax constructs that perform actions or commands. We can have multiple
+                                statements in our code, separated by semicolons. For instance, we can split "Hello
+                                World" into two alerts, like this:
+                            </p>
+
+                            <div id="input_code">
+                                <div class="d-flex justify-content-end">
+                                    <button id="run_code" type="button" class="btn btn-secondary " data-toggle="tooltip"
+                                        data-placement="top" title="Tooltip on top">
+                                        Run
+                                    </button>
+                                </div>
+                                <p class="p-1">alert('Hello'); <span class="">alert('World');</span>
+
+                                </p>
+                            </div>
+
+                            <p>Usually, statements are written on separate lines for better readability:
+                            </p>
+
+                            <div id="input_code">
+                                <div class="d-flex justify-content-end">
+                                    <button id="run_code" type="button" class="btn btn-secondary " data-toggle="tooltip"
+                                        data-placement="top" title="Tooltip on top">
+                                        Run
+                                    </button>
+                                </div>
+                                <p class="p-1">alert('Hello');
+                                </p>
+                                <p class="">alert('World');</p>
+
+                            </div>
+                            <h3 class="pt-2 mb-3">Where can JavaScript Be Used?</h3>
+                            <p>JavaScript can be run in the browser, in servers, or on any device that has a "JavaScript
+                                engine".
+                            </p>
+
+                            <p>In most cases, a semicolon can be omitted when a line break exists, as JavaScript
+                                interprets the line break as an "implicit" semicolon. This is known as automatic
+                                semicolon insertion. However, there are cases where a newline doesn't mean a semicolon,
+                                which can lead to hard-to-find errors. For instance:</p>
+
+                            <div id="input_code">
+                                <div class="d-flex justify-content-end">
+                                    <button id="run_code" type="button" class="btn btn-secondary " data-toggle="tooltip"
+                                        data-placement="top" title="Tooltip on top">
+                                        Run
+                                    </button>
+                                </div>
+                                <p class="p-1">alert(3 + );
+                                </p>
+                                <p class="p-1">1;
+                                </p>
+                                <p class="">* 2;</p>
+
+                            </div>
+
+                            <p>Here, JavaScript does not insert semicolons because the line ending with a plus "+" is an
+                                "incomplete expression," and adding a semicolon there would be incorrect.</p>
+                            <p>While it's possible to leave out semicolons most of the time, we recommend putting them
+                                between statements separated by newlines. This is a widely adopted rule by the community
+                                and helps avoid errors, especially for beginners.</p>
+                            <p>In-browser JavaScript can do everything related to webpage manipulation, interaction with
+                                the user, and the webserver.</p>
+
+                            <h3 class="pt-5 mb-3">Comments</h3>
+                            <p>Comments can be added to scripts to describe what the code does and why. They can be put
+                                anywhere in the code and do not affect execution because the engine simply ignores them.
+                                One-line comments start with two forward slash characters "//," and the rest of the line
+                                is a comment. Multiline comments start with a forward slash and an asterisk "/" and end
+                                with an asterisk and a forward slash "/." The content of comments is ignored, so if we
+                                put code inside /* ... */, it won't execute. Sometimes, it's useful to disable a part of
+                                code temporarily by commenting it out like this:</p>
+                            <p class="py-3 px-3 comments"><em>/* Commenting out the code </em>
+                            </p>
+                            <p class="pb-3 px-3 m-0 comments">
+                                alert('Hello');
+                                */
+                            </p>
+                            <p class="p-2"> alert('World');</em> </p>
+
+                            <div class="to-be-noted">
+                                <h5 class="pb-3">Use Hotkeys!</h5>
+                                <p>In most editors, a line of code can be commented out by pressing the Ctrl+/ hotkey
+                                    for a single-line comment and something like Ctrl+Shift+/ – for multiline comments
+                                    (select a piece of code and press the hotkey). For Mac, try Cmd instead of Ctrl and
+                                    Option instead of Shift.</p>
+                            </div>
+
+                        </div>
+                        <div class="about-me d-flex align-items-center">
+                            <div class="img-area">
+                                <img src="../../../images/bexit2022-end-of-the-year-party-modified8-modified-removebg-preview.png"
+                                    style="width:200px;" alt="image">
+                            </div>
+                            <div class="section-header">
+                                <h5 class="sub-title">About Me</h5>
+                                <h1>Femi Shotola</h1>
+                                <p>A Full Stack Developer. I
+                                    specialize in Laravel, Node, and Frontend Javascript frameworks.</p>
+                                <div class="social-area d-flex align-items-center">
+                                    <h4>Follow Me on</h4>
+                                    <div class="social d-flex">
+
+                                        <a href="https://www.twitter.com/@_fmshot/" class="single-icon"><img
+                                                src="../../../images/pngtree-twitter-social-media-round-icon-png-image_6315985.png"
+                                                alt="social"></a>
+                                        <a href="https://www.github.com/fmshot2/" class="single-icon"><img
+                                                src="../../../images/github-removebg-preview.png" alt="social"></a>
+                                        <a href="https://www.linkedin.com/in/femi-shotola/" class="single-icon"><img
+                                                src="../../../images/174857-removebg-preview.png" alt="social"></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- banner bottom blog end -->
+
+    <!-- Latest Articles start -->
+    <section id="latest-articles" class="blog-single">
+        <div class="overlay pt-120 pb-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-header d-flex align-items-center justify-content-between">
+                            <h3 class="title">Latest Articles</h3>
+                            <a href="blog.html">All Articles</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row wow fadeInUp">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-item mb-30">
+                            <div class="image-area">
+                                <img src="images/blog-img4.png" class="blog-item" alt="image">
+                                <div class="icon">
+                                    <img src="images/design-icon.png" alt="image">
+                                </div>
+                            </div>
+                            <div class="text-item">
+                                <div class="date-area">
+                                    <img src="images/date-icon.png" alt="image">
+                                    <span class="date">Sep 15, 2021</span>
+                                    <span>In Design</span>
+                                </div>
+                                <a href="blog-single.html">
+                                    <h3>Limitless Myths About Web Design</h3>
+                                </a>
+                                <p>Lorem ipsum dolor sit amet, elit. ligula in blandit sagittis, arcu ligula</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-item mb-30">
+                            <div class="image-area">
+                                <img src="images/blog-img5.png" class="blog-item" alt="image">
+                                <div class="icon">
+                                    <img src="images/development-icon.png" alt="image">
+                                </div>
+                            </div>
+                            <div class="text-item">
+                                <div class="date-area">
+                                    <img src="images/date-icon.png" alt="image">
+                                    <span class="date">May 15, 2021</span>
+                                    <span>In Development</span>
+                                </div>
+                                <a href="blog-single.html">
+                                    <h3>Challenges Faced By Android App Dev.</h3>
+                                </a>
+                                <p>Lorem ipsum dolor sit amet, elit. ligula in blandit sagittis, arcu ligula</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-item mb-30">
+                            <div class="image-area">
+                                <img src="../../../images/blog-img6.png" class="blog-item" alt="image">
+                                <div class="icon">
+                                    <img src="../../../images/design-icon.png" alt="image">
+                                </div>
+                            </div>
+                            <div class="text-item">
+                                <div class="date-area">
+                                    <img src="../../../images/date-icon.png" alt="image">
+                                    <span class="date">Sep 15, 2021</span>
+                                    <span>In Design</span>
+                                </div>
+                                <a href="../../../blog-single.html">
+                                    <h3>Principles of Effective Web Design</h3>
+                                </a>
+                                <p>Lorem ipsum dolor sit amet, elit. ligula in blandit sagittis, arcu ligula</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Latest Articles end -->
+
+    <!-- footer-section start -->
+    <footer id="footer-section">
+        <div class="overlay pt-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <div class="section-header pb-120 text-center">
+                            <h4 class="sub-title-alt">Contact Me</h4>
+                            <h3 class="title">Think I can help? Lets Talk!</h3>
+                            <a href="contact.html" class="cmn-btn">Let's Work Together</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-area">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-lg-4 col-md-4 col-sm-4 d-flex align-items-center justify-cen">
+                            <a href="../../../index.html">
+                                <img src="../../../images/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div
+                            class="col-lg-8 col-md-8 col-sm-8 d-flex align-items-center justify-content-end justify-cen">
+                            <ul class="d-flex">
+                                <li><a href="../../../about.html">About</a></li>
+                                <li><a href="../../../portfolio.html">Work</a></li>
+                                <li><a href="../../../portfolio.html">Service</a></li>
+                                <li><a href="../../../products.html">Products</a></li>
+                                <li><a href="../../../contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="main-content">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-8 col-md-8 col-sm-12 d-flex justify-content-start justify-cen">
+                            <div class="left-area">
+                                <p>Copyright © 2021. Made with passion by <a
+                                        href="https://themeforest.net/user/uiaxis">UIAXIS</a></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-end justify-cen">
+                            <div class="right-area">
+                                <p>All right reserved</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer-section end -->
+
+    <script src="../../../js/jquery-3.5.1.min.js"></script>
+    <script src="../../../js/bootstrap.min.js"></script>
+    <script src="../../../js/slick.js"></script>
+    <script src="../../../js/jquery.nice-select.min.js"></script>
+    <script src="../../../js/fontawesome.js"></script>
+    <script src="../../../js/jquery.counterup.min.js"></script>
+    <script src="../../../js/jquery.waypoints.min.js"></script>
+    <script src="../../../js/wow.js"></script>
+    <script src="../../../js/main.js"></script>
+    <!-- <script src="../../../js/codeeditor.js"></script> -->
+    <script src="../javascriptinfowebsite/codeeditor.js"></script>
+
+</body>
+
+<!-- Mirrored from pixner.net/readora/blog-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Jan 2023 15:15:32 GMT -->
+
+</html>
